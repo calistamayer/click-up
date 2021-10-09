@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/calistamayer/click-up/issues"
   },
-  "homepage": "https://github.com/calistamayer/click-up#readme"
+  "homepage": "https://github.com/calistamayer/click-up#readme",
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1"
+  }
 }

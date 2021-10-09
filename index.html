@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML & CSS Engineer Mini Project - Calista Mayer</title>
 
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -62,7 +63,6 @@
         <p class="features__text">Some of the features and advantages that we provide for those of you who store data in
             this Data
             Warehouse.</p>
-
         <div class="features__grid">
             <div class="features__cell features__cell_search-data">
                 <img src="img/clip-3.png" alt="clip art person with magnifying glass and document"
@@ -108,9 +108,10 @@
             </div>
         </div>
     </div>
-    <div class="testimonials">
+
+    <div class="testimonials glide">
         <h2 class="testimonials__title">Testimonials</h2>
-        <div class="testimonials__carousel">
+        <div class="testimonials__carousel glide__track" data-glide-el="track">
             <div class="testimonials__card">
                 <img src="img/headshot-1.png" alt="John Fang headshot" class="testimonials__img">
                 <div>
@@ -164,14 +165,6 @@
             <div class="testimonials__next-prev">
                 <img src="img/arrow-white-short.png" alt="left arrow">
                 <img src="img/arrow-white-long.png" alt="right arrow">
-            </div>
-        </div>
-        <div>
-            <div>
-                <!-- dots go here -->
-            </div>
-            <div>
-                <!-- arrows go here -->
             </div>
         </div>
     </div>
