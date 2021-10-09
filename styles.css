@@ -6,7 +6,7 @@
 .page {
     background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
     font-family: 'Montserrat', sans-serif;
-    width: 1600px;
+    width: 100%;
 }
 .button {
     height: 60px;

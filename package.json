@@ -1,16 +1,20 @@
 {
   "name": "clickup",
   "version": "1.0.0",
-  "description": "",
+  "description": "HTML &amp; CSS Engineer Mini Project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calistamayer/click-up.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "cli": "^1.0.1",
-    "webpack": "^5.57.1"
-  }
+  "bugs": {
+    "url": "https://github.com/calistamayer/click-up/issues"
+  },
+  "homepage": "https://github.com/calistamayer/click-up#readme"
 }
