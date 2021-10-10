@@ -131,7 +131,7 @@ body {
     color: #4B5D68;
 }
 .intro__img {
-    width: 477px;
+    width: 400px;
 }
 
 .features {
@@ -185,6 +185,7 @@ body {
     /* margin: 25px; */
     background-position: bottom right;
     padding: 50px 50px 33px 33px;
+    
     /* justify-content: space-around; */
 }
 .features__cell_search-data {
