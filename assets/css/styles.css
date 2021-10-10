@@ -155,7 +155,7 @@ body {
 .features__grid {
     display: flex;
     /* justify-content: space-around; */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* width: 1118px; */
 }
 .features__grid-titles {
@@ -184,7 +184,7 @@ body {
     background-size: contain;
     /* margin: 25px; */
     background-position: bottom right;
-    padding: 50px 50px 33px 33px;
+    padding: 50px 50px 33px 0;
     
     /* justify-content: space-around; */
 }
