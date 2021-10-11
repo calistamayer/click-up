@@ -116,7 +116,9 @@ body {
     border-radius: 50px;
     display: flex;
     margin: 102.18px auto;
-    padding: 12% 8%;
+    padding: 10%;
+    align-items: center;
+    justify-content: space-between;
 }
 .intro__text-container {
     width: 40%;
