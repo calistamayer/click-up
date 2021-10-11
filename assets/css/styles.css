@@ -167,15 +167,12 @@ body {
 }
 .features__grid {
     display: flex;
-    /* justify-content: space-around; */
-    /* flex-wrap: wrap; */
-    /* width: 1118px; */
 }
 .features__grid-titles {
     font-family: 'Helvetica', sans-serif;
     font-weight: 400;
     size: 24px;
-    line-height: 31.2px;
+    line-height: 130%;
 }
 .features__grid-text {
     font-size: 16px;
@@ -183,7 +180,7 @@ body {
     color: #4B5D68;
     width: 220px;
 }
-.features__grid-link {
+.features__link {
     font-weight: 800;
     font-size: 16px;
     line-height: 160%;
@@ -195,9 +192,9 @@ body {
     background-repeat: no-repeat;
     display: flex;
     background-size: contain;
-    /* margin: 25px; */
+    margin: 25px auto;
     background-position: bottom right;
-    padding: 50px 50px 33px 0;
+    padding: 50px 50px 0 0;
     height: 358px;
     
     /* justify-content: space-around; */
