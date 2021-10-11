@@ -103,7 +103,6 @@ body {
     font-size: 18px;
     line-height: 160%;
     color: #4B5D68;
-    /* padding: 50px 0px; */
 }
 .hero__img {
     width: 100%;
@@ -268,7 +267,7 @@ body {
 
 .trial {
     display: flex;
-    padding: 100px 0px;
+    padding: 100px 0 0;
     border-top: 2px solid rgba(104, 66, 158, 0.2);
     margin-top: 100px;
     justify-content: space-between;
