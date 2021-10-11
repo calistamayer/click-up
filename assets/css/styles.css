@@ -210,6 +210,9 @@ body {
     background: #9C69E2;
     border-radius: 50px; 
     padding: 109px 0px 62px 93px;
+    /* position: relative;
+    width: 100%; */
+    box-sizing: border-box;
 }
 .testimonials__title {
     font-family: 'Helvetica', sans-serif;
@@ -221,6 +224,7 @@ body {
 .testimonials__carousel {
     display: flex;
     margin-bottom: 60px;
+    overflow: hidden;
 }
 .testimonials__card {
     width: 645px;
@@ -230,6 +234,7 @@ body {
     display: flex;
     margin-right: 20px;
     padding: 60px;
+    box-sizing: inherit;
 }
 .testimonials__img {
     width: 90px;
