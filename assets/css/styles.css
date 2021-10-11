@@ -95,6 +95,7 @@ body {
 .hero__content_text {
     display: flex;
     flex-direction: column;
+    /* align-items: space-around; */
 }
 .hero__headline {
     font-family: 'Helvetica', sans-serif;
@@ -127,7 +128,7 @@ body {
 }
 .intro__text-container {
     width: 40%;
-    padding: 93.18px 81px 100.82px 62px;
+    /* padding: 93.18px 81px 100.82px 62px; */
 }
 .intro__heading {
     font-family: 'Helvetica', sans-serif;
