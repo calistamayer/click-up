@@ -308,15 +308,12 @@ body {
 .footer {
     display: flex;
     padding: 100px 0;
+    justify-content: space-between;
 }
 .footer__logo {
     font-weight: 800;
     font-size: 20px;
     line-height: 160%;
-}
-.footer__nav {
-    display: flex;
-    margin: 0px 140px 0px 50px;
 }
 .footer__link {
     display: block;
