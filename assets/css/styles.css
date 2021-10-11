@@ -331,6 +331,10 @@ body {
     .hero__content_text {
         display: contents;
     }
+
+    .trial__buttons {
+        flex-wrap: wrap;
+    }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -394,6 +398,12 @@ body {
 
     .trial {
         display: contents;
+    }
+    .trial__buttons {
+        flex-direction: column;
+    }
+    .trial__button {
+        margin-bottom: 10px;
     }
 
     .footer {
