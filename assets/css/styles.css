@@ -314,6 +314,20 @@ body {
     display: block;
 }
 
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+
+@media screen and (max-width: 900px) {
+    .hero {
+        display: contents;
+    }
+    .hero__content_img {
+        display: none;
+    }
+    .hero__content_text {
+        display: contents;
+    }
+}
+
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 
 @media screen and (max-width: 600px) {
