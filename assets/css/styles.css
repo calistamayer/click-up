@@ -198,6 +198,7 @@ body {
     /* margin: 25px; */
     background-position: bottom right;
     padding: 50px 50px 33px 0;
+    height: 358px;
     
     /* justify-content: space-around; */
 }
@@ -281,7 +282,9 @@ body {
     display: flex;
     padding: 100px 0px;
     border-top: 2px solid rgba(104, 66, 158, 0.2);
+    margin-top: 100px;
     justify-content: space-between;
+    align-items: center;
 }
 .trial__title {
     font-family: 'Helvetica', sans-serif;
@@ -298,6 +301,10 @@ body {
 }
 .trial__buttons {
     display: flex;
+    justify-content: space-between;
+}
+.trial__button {
+    margin: 0px 5px;
 }
 
 
