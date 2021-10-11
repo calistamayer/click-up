@@ -277,23 +277,26 @@ body {
     margin-left: auto;
 }
 
-.trial-banner {
+.trial {
     display: flex;
     padding: 100px 0px;
     border-top: 2px solid rgba(104, 66, 158, 0.2);
 }
-.trial-banner__title {
+.trial__title {
     font-family: 'Helvetica', sans-serif;
     font-weight: bold;
     font-size: 40px;
     line-height: 130%;
     color: #212353;
 }
-.trial-banner__text {
+.trial__text {
     font-weight: 500;
     font-size: 18px;
     line-height: 160%;
     color: #4B5D68;
+}
+.trial__buttons {
+    display: flex;
 }
 
 
@@ -387,7 +390,7 @@ body {
         width: 100px;
     }
 
-    .trial-banner {
+    .trial {
         display: contents;
     }
 
