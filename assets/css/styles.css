@@ -329,6 +329,16 @@ body {
         display: none;
     }
 
+    .features__grid {
+        flex-direction: column;
+    }
+    .features__row {
+        display: contents;
+    }
+    .features__cell {
+        margin: 15px auto;
+    }
+
     .trial__buttons {
         flex-wrap: wrap;
     }
@@ -394,6 +404,7 @@ body {
     .features__cell {
         display: contents;
     }
+
     .features__img {
         width: 100px;
     }
